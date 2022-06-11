@@ -62,12 +62,18 @@ h1{
 @media only screen and (min-width:600px){
 main{
     place-items: center;
+    min-height: 70vh;
 }
 #content{
-    width: 60%;
+    max-width: 1080px;;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    min-height: 70vh;
+}
+#second{
+    align-self: end;
 }
 
 }
